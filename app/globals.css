@@ -26,4 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-
+.service:hover{
+  transition: ease-in-out 0.8s;
+  transform: scale(1.1);
+}

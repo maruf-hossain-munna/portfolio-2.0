@@ -37,7 +37,7 @@ const HeroArea = () => {
             </div>
 
             <div className='w-full md:w-1/3 flex justify-center'>
-                <div className='flex justify-center items-center w-80 h-80 rounded-full bg-gradient-to-r from-green-500 via-indigo-500 to-purple-500'>
+                <div className='p-2 flex justify-center items-center md:w-44 lg:w-80 md:h-44 lg:h-80 rounded-full bg-gradient-to-r from-green-500 via-indigo-500 to-purple-500'>
                     <div className=' '>
                         <Image
                             src='/images/munna.jpg'

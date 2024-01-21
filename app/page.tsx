@@ -1,12 +1,14 @@
 import Container from './components/container/Container'
 import HeroArea from './components/heroArea/HeroArea'
+import Services from './components/services/Services'
 
 export default function Home() {
   return (
     <div className=' mt-14'>
       <Container>
-        <div >
+        <div className='flex flex-col gap-28'>
           <HeroArea />
+          <Services />
         </div>
       </Container>
     </div>
