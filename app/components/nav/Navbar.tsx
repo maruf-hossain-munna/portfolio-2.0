@@ -11,7 +11,7 @@ const redressed = Redressed({ subsets: ['latin'], weight: ['400'] })
 const NavBar = () => {
 
     return (
-        <div className="sticky top-0 z-30 w-full bg-slate-950 shadow-lg">
+        <div className="sticky top-0 z-30 w-full bg-slate-950 shadow-lg mb-12">
             <div className="py-5">
                 <Container>
                     <div className="flex justify-between items-center gap-3 md:gap-0">

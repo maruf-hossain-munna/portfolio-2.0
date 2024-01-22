@@ -1,3 +1,5 @@
+import About from './components/about/About'
+import Contact from './components/contact/Contact'
 import Container from './components/container/Container'
 import HeroArea from './components/heroArea/HeroArea'
 import Projects from './components/projects/Projects'
@@ -11,6 +13,8 @@ export default function Home() {
           <HeroArea />
           <Services />
           <Projects />
+          <About />
+          <Contact />
         </div>
       </Container>
     </div>

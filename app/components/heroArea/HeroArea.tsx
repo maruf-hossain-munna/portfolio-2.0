@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Button from '../button/Button';
 import GradientHeading from '../heading/GradientHeading';
+import Link from 'next/link';
 
 const HeroArea = () => {
     return (
@@ -28,10 +29,12 @@ const HeroArea = () => {
                     <Button
                         label='Download Resume'
                     />
-                    <Button
-                        label='Order on fiverr'
-                        outline
-                    />
+                    <Link href='https://www.fiverr.com/maruf_hossain21' target='_blank' className='w-full'>
+                        <Button
+                            label='Order on fiverr'
+                            outline
+                        />
+                    </Link>
                 </div>
 
             </div>
