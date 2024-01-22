@@ -30,3 +30,14 @@ body {
   transition: ease-in-out 0.8s;
   transform: scale(1.1);
 }
+
+.portfolio-box{
+  height: 400px;
+  background-color:transparent;
+  background-size: cover;
+  background-position: top;
+  transition: ease-in-out 5s;
+}
+.portfolio-box:hover{
+  background-position: bottom;
+}

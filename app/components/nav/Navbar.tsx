@@ -9,21 +9,6 @@ import { AiOutlineMenuFold } from "react-icons/ai";
 const redressed = Redressed({ subsets: ['latin'], weight: ['400'] })
 
 const NavBar = () => {
-    // const menuItems = <>
-    //     <li className='font-semibold lg:mr-6'><Link href='/'>Home </Link> </li>
-    //     <li className='font-semibold lg:mr-6'>
-    //         <Link href="/#skills"> Skills </Link>
-    //     </li>
-    //     <li className='font-semibold lg:mr-6'>
-    //         <Link href="/#projects"> Projects </Link>
-    //     </li>
-    //     <li className='font-semibold lg:mr-6'>
-    //         <Link href="/#about"> About  </Link>
-    //     </li>
-    //     <li className='font-semibold lg:mr-6'>
-    //         <Link href="/#contact"> Contact </Link>
-    //     </li>
-    // </>
 
     return (
         <div className="sticky top-0 z-30 w-full bg-slate-950 shadow-lg">
