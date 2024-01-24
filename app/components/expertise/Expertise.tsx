@@ -1,5 +1,3 @@
-import React from 'react';
-import GradientHeading from '../heading/GradientHeading';
 import ExpertiseCard from './ExpertiseCard';
 import MenuHeading from '../heading/MenuHeading';
 

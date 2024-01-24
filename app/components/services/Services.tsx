@@ -1,5 +1,4 @@
 import React from 'react';
-import GradientHeading from '../heading/GradientHeading';
 import ServiceCard from './ServiceCard';
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact, FaWordpressSimple } from "react-icons/fa";

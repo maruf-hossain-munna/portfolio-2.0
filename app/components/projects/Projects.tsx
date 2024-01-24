@@ -1,5 +1,4 @@
 import React from 'react';
-import GradientHeading from '../heading/GradientHeading';
 import ProjectsCard from './ProjectsCard';
 import MenuHeading from '../heading/MenuHeading';
 
