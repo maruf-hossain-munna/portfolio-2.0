@@ -21,7 +21,7 @@ const Projects = () => {
                 />
                 <ProjectsCard
                     title="Frequency Investment"
-                    image='/images/web/frequency-invest.png'
+                    image='/images/web/frequency-Invest.png'
                     category='Next website'
                     description="This is a landing page. Converted from Figma design to Next.js website. Develop with Next.js(13), Typescript, TailwindCSS"
                     gitHubLink='https://github.com/maruf-hossain-munna/doctors-portal-client'
