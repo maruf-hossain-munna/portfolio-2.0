@@ -9,7 +9,7 @@ import { CiRedo } from "react-icons/ci";
 
 const Services = () => {
     return (
-        <div >
+        <div id='services'>
             <div className='text-center'>
                 <GradientHeading
                     label='What I Do'

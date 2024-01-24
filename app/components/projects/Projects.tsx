@@ -4,7 +4,7 @@ import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
     return (
-        <div>
+        <div id='projects'>
             <div className='text-center'>
                 <GradientHeading
                     label='Projects'

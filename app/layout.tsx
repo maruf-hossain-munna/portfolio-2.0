@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <div className='flex flex-col min-h-screen bg-gradient-to-r from-black via-slate-900 to-slate-700 text-white'>
-        {/* <NavBar /> */}
+        <NavBar />
         <main className='flex-grow '>
           {children}
         </main>

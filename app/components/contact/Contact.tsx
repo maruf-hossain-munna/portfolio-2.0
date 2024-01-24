@@ -8,13 +8,13 @@ import GradientHeading from '../heading/GradientHeading';
 const Contact = () => {
     return (
         <div>
-            <div id='contact' className=' my-12'>
+            <div id='contact' className=''>
                 <div className='text-center'>
                     <GradientHeading
                         label='Contact With Me '
                     />
                 </div>
-                <div className='lg:flex my-12'>
+                <div className='md:flex flex-row items-center my-12'>
 
                     <div className='px-3 md:px-6 py-8 bg-gray-300 text-black rounded-xl lg:mt-0 mt-10'>
                         <h2 className="text-3xl font-bold mb-6">Contact Info</h2>
@@ -71,8 +71,8 @@ const Contact = () => {
                     </div>
 
 
-                    <div className='lg:w-2/3 lg:ml-12'>
-                        <h2 className='lg:text-4xl text-3xl font-bold my-4'>Send A Message</h2>
+                    <div className='lg:w-2/3 lg:ml-12 mt-12 lg:mt-0'>
+                        <h2 className='lg:text-4xl text-3xl font-bold mb-6'>Send A Message</h2>
                         {/* <p className="text-xl mb-8">Hi, thanks for contacting us. We have received your message and appreciate you reaching out.</p> */}
 
                         <div>

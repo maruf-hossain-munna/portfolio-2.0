@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const HeroArea = () => {
     return (
-        <div className='flex flex-col md:flex-row items-center gap-20 '>
+        <div className='flex flex-col md:flex-row items-center gap-12 md:gap-20 '>
 
             <div className='w-full md:w-2/3'>
                 <div>
