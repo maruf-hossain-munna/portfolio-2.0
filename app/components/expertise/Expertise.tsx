@@ -1,15 +1,15 @@
 import React from 'react';
 import GradientHeading from '../heading/GradientHeading';
 import ExpertiseCard from './ExpertiseCard';
+import MenuHeading from '../heading/MenuHeading';
 
 const Expertise = () => {
     return (
         <div id='expertise'>
-            <div className='text-center'>
-                <GradientHeading
-                    label='My Expertise'
-                />
-            </div>
+            <MenuHeading
+                label='My Expertise'
+                custom='text-center'
+            />
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12'>
                 <ExpertiseCard 

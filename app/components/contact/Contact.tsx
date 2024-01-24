@@ -3,17 +3,16 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaFacebook, FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
-import GradientHeading from '../heading/GradientHeading';
+import MenuHeading from '../heading/MenuHeading';
 
 const Contact = () => {
     return (
         <div>
             <div id='contact' className=''>
-                <div className='text-center'>
-                    <GradientHeading
-                        label='Contact With Me '
-                    />
-                </div>
+                <MenuHeading
+                    label='Contact With Me'
+                    custom='text-center'
+                />
                 <div className='md:flex flex-row items-center my-12'>
 
                     <div className='px-3 md:px-6 py-8 bg-gray-300 text-black rounded-xl lg:mt-0 mt-10'>

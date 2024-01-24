@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import React from 'react';
 import GradientHeading from '../heading/GradientHeading';
+import MenuHeading from '../heading/MenuHeading';
 
 const About = () => {
     return (
         <div id='about'>
-            <div className='text-center'>
-                <GradientHeading
-                    label='About Me'
-                />
-            </div>
+            <MenuHeading
+                label='About Me'
+                custom='text-center'
+            />
             <div className='flex flex-col md:flex-row gap-8 items-center my-12'>
                 <div className='w-full md:w-1/2 flex justify-center'>
                     <Image

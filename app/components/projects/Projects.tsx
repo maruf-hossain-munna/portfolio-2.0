@@ -1,18 +1,18 @@
 import React from 'react';
 import GradientHeading from '../heading/GradientHeading';
 import ProjectsCard from './ProjectsCard';
+import MenuHeading from '../heading/MenuHeading';
 
 const Projects = () => {
     return (
         <div id='projects'>
-            <div className='text-center'>
-                <GradientHeading
-                    label='Projects'
-                />
-            </div>
+            <MenuHeading
+                label='My Projects'
+                custom='text-center'
+            />
 
             <div className='my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12'>
-                <ProjectsCard 
+                <ProjectsCard
                     title="Doctor's Portal"
                     image='/images/web/doctors-portal.png'
                     category='React website'
@@ -20,7 +20,7 @@ const Projects = () => {
                     gitHubLink='https://github.com/maruf-hossain-munna/doctors-portal-client'
                     liveLink="https://doctor-portal-8402d.web.app/"
                 />
-                <ProjectsCard 
+                <ProjectsCard
                     title="Frequency Investment"
                     image='/images/web/frequency-invest.png'
                     category='Next website'
@@ -28,14 +28,14 @@ const Projects = () => {
                     gitHubLink='https://github.com/maruf-hossain-munna/doctors-portal-client'
                     liveLink="https://frequency-invest.vercel.app/"
                 />
-                <ProjectsCard 
+                <ProjectsCard
                     title="Disegnarecasa"
                     image='/images/web/disegnarecasa.png'
                     category='Wordpress website'
                     description="This is an E-commerce website build for an Italian furniture company. Design and develop with Elementor pro in WordPress CMS."
                     liveLink="https://dise.sviluppo.host/"
                 />
-                <ProjectsCard 
+                <ProjectsCard
                     title="Learn Confidently"
                     image='/images/web/learn-confidently.png'
                     category='React website'
@@ -43,21 +43,21 @@ const Projects = () => {
                     gitHubLink='https://github.com/maruf-hossain-munna/learn-confidently'
                     liveLink="https://learn-confidently.netlify.app/"
                 />
-                <ProjectsCard 
+                <ProjectsCard
                     title="TLC Roofing"
                     image='/images/web/tlc-roofing.png'
                     category='Wordpress website'
                     description="This is an agency portfolio website. Design and develop with Elementor pro in WordPress CMS."
                     liveLink="https://dev-tlc-roofing-and-guttering.pantheonsite.io/"
                 />
-                <ProjectsCard 
+                <ProjectsCard
                     title="Bachelor Bunny"
                     image='/images/web/bachelor-bunny.png'
                     category='Wordpress website'
                     description="This is a social media services agency portfolio website. It has 4 pages. Design and develop with Elementor pro in WordPress CMS."
                     liveLink="https://dise.sviluppo.host/"
                 />
-                
+
             </div>
         </div>
     );
