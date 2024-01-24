@@ -34,7 +34,7 @@ const ProjectsCard: React.FC<ProjectsCardProps> = ({
                 style={{ backgroundImage: `url(${image})` }}>
 
             </div>
-            <div className="px-5 mt-3">
+            <div className="px-5 mt-4">
                 <p className="text-sm text-green-500 uppercase"> {category} </p>
                 <div className="flex justify-between items-center gap-5 mt-1">
                     <h2 className="text-xl font-semibold"> {title} </h2>

@@ -18,11 +18,11 @@ const NavBar = () => {
                 <Container>
                     <div className="flex justify-between items-center gap-3 md:gap-0">
                         <Link href='/' className={`${redressed.className} text-2xl font-bold`}>
-                            Maruf Hossain
+                            <span className="text-indigo-500">Maruf</span> <span className="text-green-500">Hossain</span>
                         </Link>
 
                         <div className="hidden md:block">
-                            <ul className="flex items-center gap-8 md:gap-12 text-xl font-[500]">
+                            <ul className="flex items-center gap-6 lg:gap-12 text-lg lg:text-xl font-[500]">
                                 <li><Link href='/'>Home</Link></li>
                                 <li><Link href='#services'>Services</Link></li>
                                 <li><Link href='#projects'>Projects</Link></li>

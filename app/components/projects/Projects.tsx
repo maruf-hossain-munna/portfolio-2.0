@@ -11,7 +11,7 @@ const Projects = () => {
                 />
             </div>
 
-            <div className='my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gapy-12'>
+            <div className='my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12'>
                 <ProjectsCard 
                     title="Doctor's Portal"
                     image='/images/web/doctors-portal.png'
@@ -32,8 +32,29 @@ const Projects = () => {
                     title="Disegnarecasa"
                     image='/images/web/disegnarecasa.png'
                     category='Wordpress website'
-                    description="This is an E-commerce website build for an Italian furniture company. Design and develop with WordPress CMS."
-                    // gitHubLink='https://github.com/maruf-hossain-munna/doctors-portal-client'
+                    description="This is an E-commerce website build for an Italian furniture company. Design and develop with Elementor pro in WordPress CMS."
+                    liveLink="https://dise.sviluppo.host/"
+                />
+                <ProjectsCard 
+                    title="Learn Confidently"
+                    image='/images/web/learn-confidently.png'
+                    category='React website'
+                    description="This is an educational website (LMS). It's just designed frontend. Not use payment processing system. Develop with React.js, tailwind, daisy ui"
+                    gitHubLink='https://github.com/maruf-hossain-munna/learn-confidently'
+                    liveLink="https://learn-confidently.netlify.app/"
+                />
+                <ProjectsCard 
+                    title="TLC Roofing"
+                    image='/images/web/tlc-roofing.png'
+                    category='Wordpress website'
+                    description="This is an agency portfolio website. Design and develop with Elementor pro in WordPress CMS."
+                    liveLink="https://dev-tlc-roofing-and-guttering.pantheonsite.io/"
+                />
+                <ProjectsCard 
+                    title="Bachelor Bunny"
+                    image='/images/web/bachelor-bunny.png'
+                    category='Wordpress website'
+                    description="This is a social media services agency portfolio website. It has 4 pages. Design and develop with Elementor pro in WordPress CMS."
                     liveLink="https://dise.sviluppo.host/"
                 />
                 
