@@ -25,7 +25,7 @@ const HeroArea = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center gap-10 w-full md:w-[500px] mt-8'>
+                <div className='flex items-center gap-7 md:gap-12 w-full md:w-[500px] mt-8'>
                     <Button
                         label='Download Resume'
                     />

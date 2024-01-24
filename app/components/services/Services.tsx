@@ -19,32 +19,32 @@ const Services = () => {
                 <ServiceCard
                     icon={TbBrandNextjs}
                     title='Develop Next.js Website'
-                    description="I’m Expert in any PSD, PDF, Figma file Convert to Next app & user friendly with 100% client satisfaction."
+                    description="I’m experienced in converting your design or requirements to Next app with Typescript and TailwindCSS."
                 />
                 <ServiceCard
                     icon={FaReact}
                     title='Develop React.js Website'
-                    description="I’m Expert in any PSD, PDF, Figma file Convert to Next app & user friendly with 100% client satisfaction."
+                    description="I’m experienced in converting your design or requirements to React app with Typescript or JavaScript and TailwindCSS."
                 />
                 <ServiceCard
                     icon={FaWordpressSimple}
                     title='Develop WordPress Website'
-                    description="I’m Expert in any PSD, PDF, Figma file Convert to Next app & user friendly with 100% client satisfaction."
+                    description="I’m experienced in converting your design or requirements to WordPress Website with custom coding for your desired design."
                 />
                 <ServiceCard
                     icon={BsFiletypeHtml}
                     title='Develop HTML Webpage'
-                    description="I’m Expert in any PSD, PDF, Figma file Convert to Next app & user friendly with 100% client satisfaction."
+                    description="I’m experienced in converting your design or requirements to HTMl Website using CSS (your chooseable framework) and Javascript"
                 />
                 <ServiceCard
                     icon={MdErrorOutline}
                     title='Error Fixing'
-                    description="I’m Expert in any PSD, PDF, Figma file Convert to Next app & user friendly with 100% client satisfaction."
+                    description="I’m Expert in find errors and solve errors in your any kind of website which based in Javascript or any CMS website."
                 />
                 <ServiceCard
                     icon={CiRedo}
                     title='Redesign Website'
-                    description="I’m Expert in any PSD, PDF, Figma file Convert to Next app & user friendly with 100% client satisfaction."
+                    description="I will do redesign or added some features in your website. So that your website in very eye catching."
                 />
             </div>
 

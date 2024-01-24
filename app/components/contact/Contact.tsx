@@ -34,7 +34,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h4 className="lg:text-2xl text-xl font-bold">Email</h4>
-                                <p className='lg:text-xl text-[18px] font-semibold'> marufhossainmunna21@gmail.com </p>
+                                <p className='lg:text-xl text-[16px] font-semibold'> marufhossainmunna21@gmail.com </p>
                             </div>
                         </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                         </div>
 
                         <h4 className="text-2xl font-bold mt-10">Follow More</h4>
-                        {/* <hr className='border-slate-400 border-[0.3px] mt-2'/> */}
+                        <hr className='border-slate-400 mt-2'/>
                         <div className='flex items-center gap-6 mt-3'>
                             <Link href="https://web.facebook.com/maruf.hossain.munna01/" target='_blank'>
                                 <FaFacebook size={29} />
