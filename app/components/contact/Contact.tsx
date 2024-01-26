@@ -1,11 +1,12 @@
-import React from 'react';
 import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaFacebook, FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 import MenuHeading from '../heading/MenuHeading';
 
+
 const Contact = () => {
+
     return (
         <div>
             <div id='contact' className=''>
@@ -49,7 +50,7 @@ const Contact = () => {
                         </div>
 
                         <h4 className="text-2xl font-bold mt-10">Follow More</h4>
-                        <hr className='border-slate-400 mt-2'/>
+                        <hr className='border-slate-400 mt-2' />
                         <div className='flex items-center gap-6 mt-3'>
                             <Link href="https://web.facebook.com/maruf.hossain.munna01/" target='_blank'>
                                 <FaFacebook size={29} />
@@ -77,12 +78,12 @@ const Contact = () => {
                         <div>
                             <form >
                                 <div className='grid lg:grid-cols-2 gap-6 grid-cols-1 text-black'>
-                                    <input type="text" placeholder="Your Name" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
-                                    <input type="email" placeholder="Your Email Address" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
-                                    <input type="number" placeholder="Your Phone Number" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
-                                    <input type="text" placeholder="Subject" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
+                                    <input name='name' type="text" placeholder="Your Name" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
+                                    <input name='email' type="email" placeholder="Your Email Address" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
+                                    <input name='phone' type="number" placeholder="Your Phone Number" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
+                                    <input name='subject' type="text" placeholder="Subject" className="h-12 rounded-lg px-3 w-full border border-gray-500" />
                                 </div>
-                                <textarea className="text-black h-20 rounded-lg px-3 w-full border border-gray-500 my-6" placeholder="Message"></textarea>
+                                <textarea name='message' className="text-black h-20 rounded-lg px-3 w-full border border-gray-500 my-6" placeholder="Message"></textarea>
                                 <input type="submit"
                                     className='text-lg py-3 rounded-xl bg-white hover:bg-transparent text-black hover:text-white border-2 uppercase font-semibold hover:border-white w-full'
                                     value="Submit" />
