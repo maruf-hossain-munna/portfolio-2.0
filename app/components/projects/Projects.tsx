@@ -20,6 +20,14 @@ const Projects = () => {
                     liveLink="https://doctor-portal-8402d.web.app/"
                 />
                 <ProjectsCard
+                    title="Mired"
+                    image='/images/web/mired.png'
+                    category='Next website'
+                    description="It's just a frontend project. It's a paid work. Develop this design converting figma. Fully pixel perfect design. Develop with Next.js, Typescript, TailwindCSS."
+                    gitHubLink='https://github.com/maruf-hossain-munna/mired'
+                    liveLink="https://miredd.vercel.app/"
+                />
+                <ProjectsCard
                     title="E-Shop"
                     image='/images/web/e-shop.png'
                     category='Next website'
@@ -50,13 +58,13 @@ const Projects = () => {
                     gitHubLink='https://github.com/maruf-hossain-munna/learn-confidently'
                     liveLink="https://learn-confidently.netlify.app/"
                 />
-                <ProjectsCard
+                {/* <ProjectsCard
                     title="TLC Roofing"
                     image='/images/web/tlc-roofing.png'
                     category='Wordpress website'
                     description="This is an agency portfolio website. Design and develop with Elementor pro in WordPress CMS."
                     liveLink="https://dev-tlc-roofing-and-guttering.pantheonsite.io/"
-                />
+                /> */}
                 {/* <ProjectsCard
                     title="Bachelor Bunny"
                     image='/images/web/bachelor-bunny.png'

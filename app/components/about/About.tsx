@@ -13,7 +13,7 @@ const About = () => {
             <div className='flex flex-col md:flex-row gap-8 items-center my-12'>
                 <div className='w-full md:w-1/2 flex justify-center'>
                     <Image
-                        src='/images/maruf.jpg'
+                        src='/images/maruf-pro.jpg'
                         alt='Maruf Hossain Munna'
                         width={350}
                         height={300}

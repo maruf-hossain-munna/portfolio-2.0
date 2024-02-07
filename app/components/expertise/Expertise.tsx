@@ -26,10 +26,10 @@ const Expertise = () => {
                 />
                 <ExpertiseCard 
                     cardTitle='Tech & Tools'
-                    label1='Material ui'
-                    label2='Firebase'
-                    label3='NextAuth'
-                    label4='JWT Token'
+                    label1='Figma'
+                    label2='Material ui'
+                    label3='Firebase'
+                    label4='NextAuth'
                 />
                 <ExpertiseCard 
                     cardTitle='Professional Skills'

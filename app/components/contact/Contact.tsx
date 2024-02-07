@@ -14,7 +14,7 @@ const Contact = () => {
                     label='Contact With Me'
                     custom='text-center'
                 />
-                <div className='md:flex flex-row items-center my-12'>
+                <div className='lg:flex flex-row items-center my-12'>
 
                     <div className='px-3 md:px-6 py-8 bg-gray-300 text-black rounded-xl lg:mt-0 mt-10'>
                         <h2 className="text-3xl font-bold mb-6">Contact Info</h2>
@@ -51,7 +51,7 @@ const Contact = () => {
 
                         <h4 className="text-2xl font-bold mt-10">Follow More</h4>
                         <hr className='border-slate-400 mt-2' />
-                        <div className='flex items-center gap-6 mt-3'>
+                        <div className='flex items-center justify-between md:justify-normal gap-6 mt-3'>
                             <Link href="https://web.facebook.com/maruf.hossain.munna01/" target='_blank'>
                                 <FaFacebook size={29} />
                             </Link>
@@ -61,17 +61,17 @@ const Contact = () => {
                             <Link href="https://github.com/maruf-hossain-munna" target='_blank'>
                                 <FaGithub size={29} />
                             </Link>
-                            <Link href="https://github.com/maruf-hossain-munna" target='_blank'>
+                            <Link href="https://twitter.com/Maruf_Munnaa" target='_blank'>
                                 <FaTwitter size={29} />
                             </Link>
-                            <Link href="https://github.com/maruf-hossain-munna" target='_blank'>
+                            <Link href="https://www.instagram.com/maruf__hossain__munna/" target='_blank'>
                                 <FaInstagram size={29} />
                             </Link>
                         </div>
                     </div>
 
 
-                    <div className='lg:w-2/3 lg:ml-12 mt-12 lg:mt-0'>
+                    <div className='w-full lg:w-2/3 lg:ml-12 mt-12 lg:mt-0'>
                         <h2 className='lg:text-4xl text-3xl font-bold mb-6'>Send A Message</h2>
                         {/* <p className="text-xl mb-8">Hi, thanks for contacting us. We have received your message and appreciate you reaching out.</p> */}
 
